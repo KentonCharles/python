@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "flask_mysql/crud/ninjas_and_dojos_flask"
+		},
+		{
+			"path": "flask_mysql/validation/login_and_registration"
+		}
+	],
+	"settings": {}
+}

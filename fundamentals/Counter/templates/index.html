@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <title>Counter</title>
+</head>
+<body>
+    <div class="container" style="margin-top: 20px; width: 250px">
+        <h1 class="text-center">Counter</h1>
+        <form action="/process" method="post">
+        <h3 class="text-center">{{count}} times</h3>
+        <button type="button" class="btn btn-primary" style="width:250px; margin-bottom: 10px;" name="count_track">click to add</button><br>
+        <button type="button" class="btn btn-danger" style="width:250px;">reset</button>
+        </form>
+    </div>
+</body>
+</html>
